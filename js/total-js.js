@@ -37,19 +37,19 @@ $(function(){
 	})
 })
 // 删除地址
-$(function(){
-	$('.address-inner-4-p').click(function(){
-		var i=$('.address-inner-4-p').index(this);
-		$('.bomb-box-mask').css('display','block');
-		$('.bomb-box-inner-confirm').click(function(){
-			$(".address-inner").eq(i).remove();
-			$('.bomb-box-mask').css('display','none');
-		})
-		$('.bomb-box-inner-cancel').click(function(){
-			$('.bomb-box-mask').css('display','none');
-		})
-	})
-})
+// $(function(){
+// 	$('.address-inner-4-p').click(function(){
+// 		var i=$('.address-inner-4-p').index(this);
+// 		$('.bomb-box-mask').css('display','block');
+// 		$('.bomb-box-inner-confirm').click(function(){
+// 			$(".address-inner").eq(i).remove();
+// 			$('.bomb-box-mask').css('display','none');
+// 		})
+// 		$('.bomb-box-inner-cancel').click(function(){
+// 			$('.bomb-box-mask').css('display','none');
+// 		})
+// 	})
+// })
 
 // 我的订单
 

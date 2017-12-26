@@ -1171,6 +1171,17 @@ img{
     float:left;
     padding:3.6% 0;
 }
+.details-number{
+	position:absolute;
+	top:8%;
+	left:11.5%;
+	background:#50b680;
+	width:5%;
+	text-align:center;
+	border-radius:50%;
+	color:#ffffff;
+	font-size:0.28rem;
+}
 .details-label-img img{
     width:33%;
     margin:0 auto;
