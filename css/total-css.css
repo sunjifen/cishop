@@ -1453,3 +1453,91 @@ img{
 	color:#ffffff;
 	margin-top:5%;
 }
+/*订单信息*/
+.order-details{
+	width:100%;
+	background:#ffffff;
+	padding-bottom:10%;
+}
+.order-details-inner{
+	width:100%;
+}
+.details-inner-1{
+	width:100%;
+	overflow:hidden;
+	border-bottom:1px solid #d7d7d7;
+}
+.details-inner-1 div:nth-child(1){
+	float:left;
+	width:1.2%;
+	background:#000;
+	padding:4% 0;
+}
+.details-inner-1 div:nth-child(2){
+	float:left;
+	font-size:0.38rem;
+	margin-left:3%;
+	font-weight:bold;
+	padding:1.1% 0;
+}
+.details-inner-2{
+	width:100%;
+}
+.details-inner-2-con{
+	width:91.6%;
+	overflow:hidden;
+	margin-left:4.2%;
+	padding:3% 0;
+}
+.details-inner-2-con div:nth-child(1){
+	float:left;
+	font-size:0.35rem;
+	color:#ADADAD;
+}
+.details-inner-2-con div:nth-child(2){
+	float:right;
+	font-size:0.35rem;
+	color:#ADADAD;
+}
+.details-inner-2-p{
+	width:100%;
+	text-align:center;
+	font-size:0.35rem;
+	padding:3% 0;
+}
+.details-inner-btn{
+	width:80%;
+	background:#73b860;
+	margin-left:10%;
+	color:#ffffff;
+	border:0;
+	padding:2.2% 0;
+	border-radius:5px;
+	font-size:0.38rem;
+	margin-top:2%;
+}
+/*完成订单*/
+.order-complete{
+	width:100%;
+}
+.complete-inner{
+	width:100%;
+}
+.complete-inner-p{
+	text-align:center;
+	font-size:0.4rem;
+	margin:0;
+	margin-top:35%;
+}
+.complete-inner-div{
+	width:80%;
+	background:#73b860;
+	margin-left:10%;
+	color:#ffffff;
+	border:0;
+	padding:2.2% 0;
+	border-radius:5px;
+	font-size:0.38rem;
+	margin-top:5%;
+	text-align:center;
+}
