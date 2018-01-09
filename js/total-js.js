@@ -1,16 +1,16 @@
 // 分类标签
-$(function(){
-	$('.index-menu').click(function(){
-		var display =$('.index-head-classify').css('display');
-		if(display == 'none'){
-			$('.index-head-classify').fadeIn('1000');
-			$('.index-menu img').attr('src','image/btn_X_pre.png'); 
-		}else{
-			$('.index-menu img').attr('src','image/menu.png'); 
-			$('.index-head-classify').css('display','none');
-		}
-	})
-})
+// $(function(){
+// 	$('.index-menu').click(function(){
+// 		var display =$('.index-head-classify').css('display');
+// 		if(display == 'none'){
+// 			$('.index-head-classify').fadeIn('1000');
+// 			$('.index-menu img').attr('src','image/btn_X_pre.png'); 
+// 		}else{
+// 			$('.index-menu img').attr('src','image/menu.png'); 
+// 			$('.index-head-classify').css('display','none');
+// 		}
+// 	})
+// })
 // 我的分享金
 $(function(){
 	$('.share-one-inner').click(function(){
